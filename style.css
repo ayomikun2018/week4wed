@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top{
+
+    background-image: url(https://images.unsplash.com/photo-1561047029-3000c68339ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29mZmVlJTIwY3VwfGVufDB8fDB8fA%3D%3D&w=1000&q=80ttps://img.freepik.com/free-vector/floral-welcome-lettering-concept_23-2147903882.jpg?);  
+    background-color: blue;
+    height: 20rem;
+    background-repeat: no-repeat;
+    color: #ee8b12;
+    background-size: cover;
+    border-radius: 6px;
+    margin: 0 1rem 1rem 1rem;
+}
+.started, .create{
+    /* padding: 0rem 2rem 4rem 2rem; */
+    padding-left: 4rem;
+    padding-top: 1rem;
+}
+.started{
+    font-size: 3rem;
+}
+.create{
+    font-size: 2rem;
+}
+.middle{
+    /* color: rgb(12, 41, 207); */
+    border-radius: 0;
+    margin: 2rem 2rem 1rem 2rem;
+    /* background-color: crimson; */
+    height: 20rem;
+}
+input[type="text"], input[type="password"]{
+    width: 100%;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid blue;
+    margin-bottom: 1.2rem;
+}
+label{
+    color: rgb(104, 45, 3);
+}
+input[type="submit"]{
+    width: 100%;
+    height: 3rem;
+    background-color: chocolate;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+input[type="submit"]:hover{
+    background-color: blue;
+    color: white; 
+}
+.bottom{
+    text-align: center;
+    /* text-decoration: none */
+}
+ a{
+  text-decoration:none;
+  color: chocolate;
+}
